@@ -1,7 +1,13 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
-module.exports = {
+module.exports = (env) => {
+    // Use env.<YOUR VARIABLE> here:
+    console.log('Goal: ', env.goal)
+    console.log('dev: ', env.dev)
+    
+    
+    return {
     mode: 'development', 
     entry: {
         index: './src/index.js', 
@@ -34,4 +40,4 @@ module.exports = {
         }
 
     }
-}
+}}
