@@ -14,7 +14,8 @@ module.exports = (env) => {
     },
     devtool: 'inline-source-map',
     devServer: {
-        static: './dist'
+        static: './dist',
+        hot: true
     },
     plugins: [
         new HtmlWebpackPlugin({
