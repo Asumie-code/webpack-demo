@@ -1,5 +1,7 @@
 import { cube } from "./math";
 
+if (process.env.NODE_ENV !== 'production') console.log('looks like we ar ein development mode!')
+
 
 function component() {
   const element = document.createElement('pre');
