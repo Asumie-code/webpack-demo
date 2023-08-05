@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebpack_demo=self.webpackChunkwebpack_demo||[]).push([[740],{569:(e,o,s)=>{s.r(o),s.d(o,{default:()=>t}),console.log("the print.js module has loaded! see the network tab in dev tools...");const t=()=>{console.log('button Clicked: Here\'s "some text"!')}}}]);
